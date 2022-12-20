@@ -6838,12 +6838,6 @@ function library:CreateWindow(options, ...)
 				common_table = nil
 			end
 		end
-		if options.Credit ~= false then
-			daaata[1 + #daaata] = {"AddLabel", "__Designer.Label.Creator", detailssection, {
-				Text = "Library by Pepsi#5229 "
-			}}
-		elseif "Gee, thanks for your support." then
-		end
 		if options.Info then
 			local typ = type(options.Info)
 			if typ == "string" then
