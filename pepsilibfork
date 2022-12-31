@@ -1,6 +1,6 @@
 
-if game.CoreGui:FindFirstChild("PepsiUi") then
-    game.CoreGui:FindFirstChild("PepsiUi"):Destroy()
+if game.CoreGui:FindFirstChild("vvui") then
+    game.CoreGui:FindFirstChild("vvui"):Destroy()
 end
 local library = {
 	WorkspaceName = "VelvetHub",
