@@ -1,6 +1,6 @@
 local library = {
 	Version = "0.35",
-	WorkspaceName = "MOTIONHUB",
+	WorkspaceName = "VelVetHub",
 	flags = {},
 	signals = {},
 	objects = {},
@@ -15,13 +15,13 @@ local library = {
 		easingDirection = Enum.EasingDirection.Out
 	},
 	colors = {
-		main = Color3.fromRGB(38, 255, 245),
-		background = Color3.fromRGB(40, 40, 40),
+		main = Color3.fromRGB(255, 0, 85),
+		background = Color3.fromRGB(22, 21, 21),
 		outerBorder = Color3.fromRGB(38, 255, 245),
 		innerBorder = Color3.fromRGB(73, 63, 73),
-		topGradient = Color3.fromRGB(35, 35, 35),
-		bottomGradient = Color3.fromRGB(29, 29, 29),
-		sectionBackground = Color3.fromRGB(35, 34, 34),
+		topGradient = Color3.fromRGB(22, 21, 21),
+		bottomGradient = Color3.fromRGB(22, 21, 21),
+		sectionBackground = Color3.fromRGB(22, 21, 21),
 		section = Color3.fromRGB(255, 255, 255),
 		otherElementText = Color3.fromRGB(255, 255, 255),
 		elementText = Color3.fromRGB(255, 255, 255),
